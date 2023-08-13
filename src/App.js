@@ -5,11 +5,9 @@ import Login from "./pages/Login";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PrivateRoute from "./pages/PrivateRoute";
-import AuthWrapper from "./pages/AuthWrapper";
 
 function App() {
   return (
-    <AuthWrapper>
       <BrowserRouter>
           <Routes>
             <Route
@@ -24,7 +22,6 @@ function App() {
             <Route path='*' element={<Error />} />
           </Routes>
       </BrowserRouter>
-    </AuthWrapper>
   );
 }
 
