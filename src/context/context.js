@@ -36,6 +36,7 @@ const AppProvider = ({children}) =>{
         setIsLoading(true);
         try{
             const response = await axios(`${rootUrl}/users/${searchValue}`);
+            console.log(response);
             if(response){
                 setGitHubUser(response.data);
                 const {login, followers_url} = response.data;
