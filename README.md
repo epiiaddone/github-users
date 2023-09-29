@@ -1,18 +1,26 @@
+# GitHub User Search
 
-### css
-styled components - [npm install styled-components@latest]
+## Table of contents
 
-### routing
-react-router-dom
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [To Do](#to-do)
+- [Acknowledgments](#acknowledgments)
 
-### state
-context
+## Overview
 
-### react libraries
-axios
-react-icons
+Graphical information about users, followers, repositories and forks.
 
+## Technologies
 
-### 3rd party 
-fusion charts [easy integration, much custimization, comprehensive documentation]
-auth0 - not in use
+- React: 18.2.0
+- React Router: 6.14.0
+- Axios: 1.4.0
+
+## To Do
+
+## Acknowledgments
+- [Udemy: React 18 Tutorial and Projects Course](https://www.udemy.com/course/react-tutorial-and-projects-course/)
+- [Styled Components](https://styled-components.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Fusion Charts](https://www.fusioncharts.com/)
